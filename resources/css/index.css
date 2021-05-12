@@ -1,0 +1,372 @@
+body {
+    font-family: "Neuton", serif;
+}
+
+
+.top-contents h1 {
+    font-weight: bold;
+    font-size: 120px;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+.top-inside p {
+    font-size: 30px;
+    padding-left: 100px;
+}
+
+.top-contents {
+    background-image: url("../terrace-1030758_1280.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    margin-bottom: 60px;
+}
+
+.top-right a{
+    color: black;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: "Sylfaen";
+    font-weight: lighter;
+}
+
+.top-right a:hover {
+    color: #a3d6cc;
+    transition-duration: 0.5s;
+}
+
+.top-right {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.social a {
+    color: black;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.social a:hover {
+    color: #a3d6cc;
+    transition-duration: 0.5s;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.about-title {
+    -ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+    display: inline-block;
+    text-orientation: upright;
+    margin: 0 0 0 auto;
+    padding-top: 50px;
+    font-size: 55px;
+    font-family: "Sylfaen";
+    height: 400px;
+    border-left: 1px solid gray;
+}
+
+.title {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title h2 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    padding-bottom: 70px;
+}
+
+.hotel-explanation {
+    padding-left: 100px;
+    padding-top: 100px;
+    line-height: 40px;
+}
+
+
+
+.top-photos img {
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 20px;
+    box-shadow: 50px 50px #a3d6cc;
+    margin-bottom: 100px;
+}
+
+.learn-more a{
+    border: 1px solid black;
+    padding: 20px 50px 20px 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.learn-more {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-more a:hover {
+    color: white;
+    background-color: black;
+    transition-duration: 0.3s
+
+}
+
+.rooms {
+    padding-top: 230px;
+}
+
+.rooms-explanation p {
+    font-family: "Sylfaen";
+    font-size: 55px;
+    border-bottom: 1px solid gray;
+    width: 600px;
+    padding-bottom: 40px;
+}
+
+.rooms-details, .rooms-bottom-details {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background-color:#e6eae6;
+}
+
+.rooms-details p, .rooms-bottom-details p{
+    line-height: 30px;
+    padding: 30px;
+    font-size: 15px;
+}
+
+.rooms-details img, .rooms-bottom-details img{
+    height: 500px;
+    width: 712px;
+}
+
+.rooms-details img {
+    margin: 0 0 0 auto;
+}
+
+.rooms-bottom-details img {
+    margin-right: 30px;
+}
+
+.rooms-details span, .rooms-bottom-details span {
+    border-bottom: 1px solid gray;
+}
+
+#gal-contents1 {
+    -moz-animation: fadeinout 4s 0s infinite;
+    -webkit-animation: fadeinout 4s 0s infinite;
+    -o-animation: fadeinout 4s 0s infinite;
+    animation: fadeinout 4s 0s infinite;
+}
+
+#gal-contents2 {
+    -moz-animation: fadeinout 8s 4s infinite;
+    -webkit-animation: fadeinout 8s 4s infinite;
+    -o-animation: fadeinout 8s 4s infinite;
+    animation: fadeinout 8s 4s infinite;
+}
+
+#gal-contents3 {
+    -moz-animation: fadeinout 12s 8s infinite;
+    -webkit-animation: fadeinout 12s 8s infinite;
+    -o-animation: fadeinout 12s 8s infinite;
+    animation: fadeinout 12s 8s infinite;
+}
+
+#gal-contents4 {
+    -moz-animation: fadeinout 16s 12s infinite;
+    -webkit-animation: fadeinout 16s 12s infinite;
+    -o-animation: fadeinout 16s 12s infinite;
+    animation: fadeinout 16s 12s infinite;
+}
+
+#gal-contents5 {
+    -moz-animation: fadeinout 20s 16s infinite;
+    -webkit-animation: fadeinout 20s 16s infinite;
+    -o-animation: fadeinout 20s 16s infinite;
+    animation: fadeinout 20s 16s infinite;
+}
+
+#gal-contents6 {
+    -moz-animation: fadeinout 24s 20s infinite;
+    -webkit-animation: fadeinout 24s 20s infinite;
+    -o-animation: fadeinout 24s 20s infinite;
+    animation: fadeinout 24s 20s infinite;
+}
+
+#gal-contents7 {
+    -moz-animation: fadeinout 28s 24s infinite;
+    -webkit-animation: fadeinout 28s 24s infinite;
+    -o-animation: fadeinout 28s 24s infinite;
+    animation: fadeinout 28s 24s infinite;
+}
+
+.gallery-contents {
+    display: flex;
+    margin-top: 200px;
+}
+
+.gallery-contents p {
+    -ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+    display: inline-block;
+    text-orientation: upright;
+    margin: 0 0 0 auto;
+    font-size: 55px;
+    font-family: "Sylfaen";
+    margin-right: 50px;
+    padding-top: 100px;
+    border-left: 1px solid gray;
+    padding-left: 50px;
+    height: 500px;
+}
+
+.gallery {
+    position: relative;
+    overflow: hidden;
+    width: 900px;
+    height: 1000px;
+}
+
+.gallery img{
+display: block;
+position: absolute;
+width: 900px;
+height: 600px;
+left: 100%;
+animation: slideAnime 28s ease infinite;
+margin-left: 100px;
+
+}
+
+.gallery img:nth-of-type(1) {animation-delay: 0s}
+.gallery img:nth-of-type(2) {animation-delay: 4s}
+.gallery img:nth-of-type(3) {animation-delay: 8s}
+.gallery img:nth-of-type(4) {animation-delay: 12s}
+.gallery img:nth-of-type(5) {animation-delay: 16s}
+.gallery img:nth-of-type(6) {animation-delay: 20s}
+.gallery img:nth-of-type(7) {animation-delay: 24s}
+
+@keyframes slideAnime {
+    0% {left: 100%}
+    1% {left:0}
+    13% {left:0}
+    14% {left: 100%}
+    100% {left: 100%}
+}
+
+.location-title{
+    font-family: "Sylfaen";
+    font-size: 55px;
+    border-bottom: 1px solid gray;
+    width: 600px;
+    padding-bottom: 40px;
+}
+
+.location {
+    background-color: #efefef;
+    height: 600px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.location-explanation {
+    font-size: 15px;
+    text-align: center;
+    width: 500px;
+    padding: 30px;
+    line-height: 30px;
+}
+
+.location-explanation span {
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 500px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.foot-left p{
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+.foot-right a {
+    color: black;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.foot-right {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 auto;
+    padding-right: 30px;
+}
+
+.sa {
+    opacity: 0;
+  transition: all .5s ease;
+}
+
+.sa--up {
+    transform: translate(0, 100px);
+}
+
+.sa.show {
+    opacity: 1;
+    transform: none;
+  }
+
+
+.reserve-now a{
+    border: 1px solid black;
+    padding: 20px 50px 20px 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.reserve-now {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.reserve-now a:hover {
+    color: white;
+    background-color: black;
+    transition-duration: 0.3s
+
+}
